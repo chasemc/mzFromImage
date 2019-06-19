@@ -1,0 +1,20 @@
+Package: mzFromImage
+Title: Tries to extrapolate masses from an image
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Chase",
+           family = "Clark",
+           role = c("aut", "cre"),
+           email = "chasec288@gmail.com",
+           comment = c(ORCID = "0000-0001-6439-9397"))
+Description: What the package does (one paragraph).
+License: MIT + file LICENSE
+Encoding: UTF-8
+Language: en
+LazyData: true
+biocViews:
+Imports: 
+    EBImage,
+    shiny,
+    MALDIquant
+RoxygenNote: 6.1.1
